@@ -6,6 +6,7 @@
  * is a piece of art," followed by a new line.
  * Return : Always 0.
  */
+
 int main(void)
 
 {
