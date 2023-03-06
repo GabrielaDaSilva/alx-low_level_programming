@@ -5,7 +5,7 @@
  * are not compared and returns a pointer to the beginning
  * of the located substring, or NULL if the substring is not found.
  * @haystack: input
- * #needle: input
+ * @needle: input
  * Return: Always 0.
  */
 char *_strstr(char *haystack, char *needle)
@@ -24,5 +24,6 @@ char *_strstr(char *haystack, char *needle)
 		if (*p == '\0')
 			return (haystack);
 	}
+
 	return (0);
 }
