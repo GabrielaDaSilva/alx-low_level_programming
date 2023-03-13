@@ -4,9 +4,11 @@
 
 /**
  * main - check the code for ALX School students.
- *
+ * @ac: int input
+ * @av: char input
  * Return: Always 0.
  */
+
 int main(int ac, char *av[])
 {
 	char *s;
@@ -18,5 +20,6 @@ int main(int ac, char *av[])
 	}
 	printf("%s", s);
 	free(s);
+
 	return (0);
 }
